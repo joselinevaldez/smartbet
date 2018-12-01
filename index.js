@@ -38,7 +38,7 @@ var sorteoRoutes = require('./routes/sorteo');
 
 
 // Conexión a la base de datos
-mongoose.connection.openUri('mongodb://joseline:joseline04>@ds123454.mlab.com:23454/smartbet', (err, res) => {
+mongoose.connection.openUri('mongodb://joseline:joseline04@ds123454.mlab.com:23454/smartbet', (err, res) => {
 
     if (err) throw err;
 
